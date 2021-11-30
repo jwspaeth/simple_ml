@@ -1,2 +1,2 @@
 # simple-ml
-Simple ml tools.
+Simple ML framework for deep learning.
