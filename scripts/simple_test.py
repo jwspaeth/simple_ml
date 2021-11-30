@@ -8,6 +8,7 @@ from omegaconf import OmegaConf, open_dict
 
 from simple_ml.test import test
 
+
 @hydra.main(config_path=None)
 def test_from_cfg(cfg):
     OmegaConf.set_struct(cfg, True)
