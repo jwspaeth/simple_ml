@@ -1,7 +1,7 @@
 from setuptools import find_namespace_packages, setup
 
 
-setup(name="simple_ml",	version="0.1",
+setup(name="simple_ml",	version="0.1.0",
     author="Will Spaeth",
     author_email="jwspaeth0@gmail.com",
     packges=find_namespace_packages(include=["simple_ml", "hydra_plugins.*"]),
