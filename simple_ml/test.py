@@ -1,6 +1,6 @@
 from hydra.utils import instantiate
 
-from simple_ml.utils import setup_ml, load_data
+from simple_ml.utils import setup_ml
 
 
 def test(**kwargs):
