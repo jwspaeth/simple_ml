@@ -1,2 +1,2 @@
 # simple_ml
-Simple ML framework for deep learning.
+Simple pytorch lib to support ml_template.
