@@ -14,7 +14,7 @@ from simple_ml.test import test
 @hydra.main(config_path=None)
 def test_from_cfg(cfg):
     OmegaConf.set_struct(cfg, True)
-    with open_dict(sft):
+    with open_dict(cfg):
         cfg.pop("experiment_id", None)
 
     return test(**cfg)
